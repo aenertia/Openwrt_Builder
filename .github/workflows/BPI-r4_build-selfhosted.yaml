@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REMOTE_REPOSITORY: rmandrad/openwrt
+  REMOTE_REPOSITORY: openwrt/openwrt
   REMOTE_BRANCH: main
   CONFIG_FILE: bpi-r4-mda.config
   MTK_PPE_ENTRIES_SHIFT_PATCH: 999-01_32k_ppe.patch
